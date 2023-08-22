@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Tahoma", serif;
+  }
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  a {
+    text-decoration: none;
+  }
+  .headerLeft {
+    float: left;
+  }
+  .logo {
+    width: 130px;
+    margin-top: 10px;
+    margin-left: -50px;
+  }
+  .headerMiddle{
+    padding-left: 50px;
+    float: left;
+    line-height: 0px;
+    width: 500px;
+    text-align:center;
+    font-size: 40px;
+    font-family: "Tinos", serif;
+    /*Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+  }
+  .headerRight {
+    float: right;
+    margin-right: -25px;
+  }
+  .headerRight a{
+    line-height: 80px;
+    padding: 0 25px;
+    font-size: large;
+    text-align: center;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .headerRight a:hover {
+    background-color: rgba(66, 182, 255, 0.5);
+  }
+  .mainPart {
+    height: 1000px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #00aaaa;
+    text-align: center;
+  }
+
+  .Title p{
+    font-family: "Time New Roman", serif;
+    color: white;
+    font-size: 80px;
+    padding-top: 50px;
+  }
+  .name {
+    display: block;
+    border-radius: 50px;
+    background-color: white;
+    width: 25%;
+    height: 150px;
+    margin: 5% 50px;
+    float: left;
+  }
+  .name p{
+    padding-top: 10px;
+    font-size: 40px;
+    font-family:'Times New Roman', serif;
+    color: black;
+  }
